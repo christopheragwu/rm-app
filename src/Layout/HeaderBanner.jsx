@@ -1,9 +1,10 @@
 import styles from "./Layout.module.css";
+import bannerImage from "../assets/Ad-Banner-img.png";
 
 const HeaderBanner = () => {
   return (
     <div className={styles.headerBanner}>
-      <h1>HEADER</h1>
+      <img src={bannerImage} alt="" />
     </div>
   );
 };

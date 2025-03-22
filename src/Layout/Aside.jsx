@@ -1,9 +1,10 @@
 import styles from "./Layout.module.css";
+import AsideElements from "../Components/Aside Components/AsideElements";
 
 const Aside = () => {
   return (
     <div className={styles.aside}>
-      <h1>ASIDE</h1>
+      <AsideElements></AsideElements>
     </div>
   );
 };

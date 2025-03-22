@@ -1,0 +1,13 @@
+.sideNavMenu {
+    padding: 10px;
+    display: block;
+}
+
+.sideNavMenu i {
+    margin-right: 5px;
+}
+
+.listItems {
+ margin: 20px 0 0 20px ;
+}
+    

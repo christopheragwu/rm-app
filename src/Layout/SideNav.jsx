@@ -1,9 +1,10 @@
-import styles from "../Layout/SideNav.jsx";
+import styles from "./Layout.module.css";
+import SideNavMenu from "../Components/SideNav Components/SideNavMenu";
 
 const SideNav = () => {
   return (
     <div className={styles.sideNav}>
-      <h1>SIDENAV</h1>
+      <SideNavMenu></SideNavMenu>
     </div>
   );
 };

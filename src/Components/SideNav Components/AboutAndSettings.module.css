@@ -1,0 +1,12 @@
+.aboutAndSettingsNav {
+    display: block;
+    padding: 3px;
+}
+
+.aboutAndSettingsNav i {
+    margin-right: 5px;
+}
+
+.listIcons {
+    margin: 20px 0 0 20px ;
+   }

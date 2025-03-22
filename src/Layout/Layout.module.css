@@ -1,37 +1,69 @@
-.grid-container {
+.gridContainer {
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 8px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto, 700px;
+    grid-template-rows: auto, auto, auto;
     grid-template-areas: 
     "h h h h h h h h h h h h"
-    "s s s c c c c c c a a a";
-}
-
-.aside {
-    background-color: rgb(253, 66, 66) ;
-    padding: 20px;
-    grid-area: a;
-}
-
-.content {
-    background-color: rgb(84, 192, 255) ;
-    padding: 20px;
-    grid-area: c;
+    ". s s c c c c c c a a ."
+    ". p p c c c c c c a a .";
 }
 
 .headerBanner {
-    background-color: rgb(84, 192, 255) ;
-    padding: 20px;
+    
     grid-area: h;
+    position: sticky;
+    top: 0;
+    
 }
 
 .sideNav {
-    background-color: rgb(255, 167, 84) ;
-    height: 500px;
-    padding: 20px;
+    border-radius: 15px;
+    background-color: #d7edf2 ;
+    margin-top: 0px;
+    height: 300px;
     grid-area: s;
+    position: sticky;
+    top: 125px;
+    
+
 }
+
+
+.content {
+    border-radius: 15px;
+    background-color: #d7edf2;
+    height: 450px;
+    padding: 30px 20px 20px 20px;
+    margin-top: 2px;
+    position: sticky;
+    top: 125px;
+    grid-area: c;
+}
+
+.aside {
+    border-radius: 15px;
+    background-color: #d7edf2 ;
+    margin-top: 0px;
+    height: 470px;
+    grid-area: a;
+    position: sticky;
+    top: 125px;
+}
+
+.aboutAndSettings {
+    border-radius: 15px;
+    background-color: #abc0c5 ;
+    height: 100px;
+    grid-area: p;
+    position: sticky;
+    top: 500px;
+    
+}
+
+
+
+
 
 
 

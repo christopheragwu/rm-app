@@ -1,0 +1,19 @@
+.asideSermonSlides {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 20px 0 5px 30px;
+    background-color: #abc0c5;
+}
+
+.asideSermonSlides img {
+    border-radius: 15px;
+}
+
+.asideServiceSlides {
+    width: 160px;
+    height: 260px;
+    border-radius: 10px;
+    margin: 25px 0 0 30px;
+    background-color: #abc0c5;
+}
